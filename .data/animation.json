@@ -1,1 +1,12 @@
-{"animation":{"frametime":1}}
+{
+	"animation": {
+		"width": 16,
+		"height": 16,
+		"frametime":1,
+		"interpolate": false,
+		"frames": [
+			1,
+			{"index": 2, "time": 4}
+		]
+	}
+}

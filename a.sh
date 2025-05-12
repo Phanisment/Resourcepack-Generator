@@ -9,8 +9,8 @@ read -p "Enter the message commit: " commit_message
 git add .
 git commit -m "$commit_message"
 echo "Successfuly commit with message: $commit_message"
-read -p "Enter the branch name for push (default: main): " branch_name
-branch_name=${branch_name:-main}
+read -p "Enter the branch name for push (default: master): " branch_name
+branch_name=${branch_name:-master}
 git push origin "$branch_name"
 
 if [ $? -eq 0 ]; then
